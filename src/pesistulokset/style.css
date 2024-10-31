@@ -1,0 +1,18 @@
+.wp-block-pesistulokset-pesistulokset-block {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wp-block-pesistulokset-pesistulokset-block .pt-results-header {
+  background-color: var(--pesistulokset-header-bg-color);
+}
+
+.wp-block-pesistulokset-pesistulokset-block .pt-results-header .header-title {
+  color: var(--pesistulokset-header-color);
+}
+
+.wp-block-pesistulokset-pesistulokset-block .pt-results-table tr.team-highlighted td {
+  color: var(--pesistulokset-highlight-color);
+  background-color: var(--pesistulokset-highlight-bg-color);
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,115 @@
+.wp-block-pesistulokset-pesistulokset-block {
+	box-sizing: border-box;
+
+	.pt-results-header {
+		background-color: var( --pesistulokset-header-bg-color );
+		box-sizing: content-box;
+		height: 2rem;
+		text-align: left;
+		padding: 1rem;
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.header-title {
+			color: #fff;
+			font-size: 19px;
+			font-weight: bold;
+		}
+
+		.series-logo {
+			width: 50px;
+			height: 50px;
+
+			img {
+				max-width: 100%;
+				height: auto;
+				display: block;
+			}
+		}
+
+		.header-title {
+			color: var( --pesistulokset-header-color );
+		}
+	}
+
+	.pt-results-table {
+		width: 100%;
+		color: inherit;
+		background-color: inherit;
+		border-collapse: collapse;
+		overflow: hidden;
+		white-space: nowrap;
+
+		tr {
+			&.team-highlighted {
+				td {
+					background-color: #d4edfd;
+				}
+			}
+		}
+
+		tr.team-highlighted {
+			td {
+				color: var( --pesistulokset-highlight-color );
+				background-color: var( --pesistulokset-highlight-bg-color );
+			}
+		}
+
+		td, th {
+			padding: .75rem;
+			padding: .75rem;
+			vertical-align: top;
+			border-top: 0 solid;
+			text-align: center;
+
+			&.pt-name {
+				text-align: left;
+			}
+
+			.position {
+				display: inline-block;
+				width: 2rem;
+			}
+
+			.pt-team-name {
+				@media( max-width: 768px ) {
+					display: none;
+				}
+			}
+
+			.pt-team-name-short {
+				@media( min-width: 769px ) {
+					display: none;
+				}
+			}
+		}
+
+		td {
+			width: 2.5rem;
+			text-align: center;
+
+			img {
+				width: 1rem;
+				height: 1rem;
+				display: inline-block;
+				margin-right: .5rem;
+				vertical-align: middle;
+			}
+
+			&.pt-name {
+				max-width: 50vw;
+				text-overflow: ellipsis;
+				overflow: hidden;
+				text-align: left;
+				white-space: nowrap;
+			}
+
+			&.pt-runs {
+				white-space: nowrap;
+			}
+		}
+	}
+
+}

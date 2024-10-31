@@ -1,0 +1,132 @@
+.pt-table-wrapper {
+  overflow-x: auto;
+}
+
+.pt-results-table {
+  width: 100%;
+  color: inherit;
+  background-color: inherit;
+  border-collapse: collapse;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.pt-results-table.pt-results-shortcode {
+  background-color: #ffffff;
+}
+
+.pt-results-table thead {
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pt-results-table td,
+.pt-results-table th {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 0 solid;
+  text-align: center;
+}
+
+.pt-results-table td.pt-name,
+.pt-results-table th.pt-name {
+  text-align: left;
+}
+
+.pt-results-table td .position,
+.pt-results-table th .position {
+  display: inline-block;
+  width: 2rem;
+}
+
+.pt-results-table th {
+  font-weight: bold;
+}
+
+.pt-results-table tr.team-highlighted td {
+  background-color: #d4edfd;
+}
+
+.pt-results-table td {
+  width: 2.5rem;
+  text-align: center;
+}
+
+.pt-results-table td img {
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  margin-right: .5rem;
+  vertical-align: middle;
+}
+
+.pt-results-table td.pt-name {
+  max-width: 50vw;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.pt-results-table td.pt-runs {
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .pt-results-table .pt-team-name {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .pt-results-table .pt-team-name-short {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .pt-hidden-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .pt-hidden-tablet {
+    display: none;
+  }
+}
+
+.pt-results-header {
+  height: 2rem;
+  background-color: #0c71c3;
+  text-align: left;
+  padding: 1rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pt-results-header .header-title {
+  color: #fff;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.pt-results-header .series-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.pt-results-header .series-logo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/*# sourceMappingURL=styles.css.map */
